@@ -6,7 +6,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("CORSPolicy", builder =>
     {
-        builder.AllowAnyMethod().AllowAnyHeader().WithOrigins("http://localhost:3000", "https://appname.azurestaticapps.net");
+        builder.AllowAnyMethod().AllowAnyHeader().WithOrigins("http://localhost:3000", "https://nice-plant-0b4c0ac03.4.azurestaticapps.net");
     });
 });
 
